@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+body,
+html {
+  font-family: "Inter", sans-serif;
+}
+/*-------------------header------------------*/
+#header-total{
+    background-color: #ff3b3c;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-bottom: 1%;  
+}
+.logo{
+    height: 50px;
+    width: 20%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.search{
+    width: 35%;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+button {
+    background-color: white; 
+    color: #afafb1; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+  }
+.redes-sociales{
+    display: flex;
+    gap: 20%;
+    width: 15%;
+    justify-content: center;
+}
+  
+.informativa{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 19%;
+    padding-right: 19%;
+    color: white;    
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+/*-------------------section-----------------*/
+#container{
+    width: 100%;
+    height: 200px;
+}
+.image-container{
+    width: 100%;
+    height: 100%;
+}
+.image-container img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+#container .paragraphs-conteiner{
+   color: white;
+   position: absolute;     
+   display: flex;  
+   flex-direction: column;
+   left: 15%;
+   top: 30%;
+   line-height: 0.7;
+}
+
+.technologies{
+    margin: 0px;
+    padding: 0px;
+    font-size: 3em;    
+}
+.lyrics{
+    margin: 0px;
+    padding: 0px;
+    font-size: 6em;     
+}
+/*-------------------main-----------------*/
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.producto{
+    width: 20%;
+    padding-left: 5%; 
+    padding-right: 5%;
+
+}
+.producto a{
+    text-decoration: none;
+    color: black;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 15%;
+}
+.box-description{
+    background-color: #f0f0f0;
+    padding: 5%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: auto;
+}
+.description{
+    display: flex;
+    flex-direction: column;    
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+}
+.discount{
+    color: #319233;
+}
+.product-tax-policy{
+    font-size: 12px;
+}
+/*-------------------footer-----------------*/
+footer{
+    background-color: #7525a7;
+    padding-bottom: 2%;
+}
+
+#ofertas{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%; 
+    line-height: 2;     
+}
+.listas{
+    color: white;
+}
+.listas1{
+    list-style: none;
+    margin-top: 12%;
+    padding-left: 0px;
+}
+.listas1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.curso {
+    color: white;
+    text-align: center;
+    border-top: 2px solid #843bb2;
+    padding-top: 2%;
+}
+
+
+                            /*para moviles*/
+                            
+/*-------------------main-----------------*/
+@media (max-width: 768px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    body,
+    html {
+      font-family: "Inter", sans-serif;
+    }
+    /*-------------------header------------------*/
+     
+    .logo-container{
+        display: flex;
+        justify-content: space-around;
+        gap: 10%;
+        padding-left: 4%;
+        padding-right: 6%;
+    }
+    .logo{
+        height: 50px;
+        width: 50%;  
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }       
+    .search{
+        width: 30%;
+        height: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    #search{
+        font-size: 10px;
+    }
+    .redes-sociales{
+        display: flex;
+        gap: 20%;
+        width: 20%;
+        justify-content: center;
+        height: 20px;        
+    }
+    .redes{
+        width: 20px;
+    }
+      
+    .informativa{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;    
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        font-size: 7px;
+    }
+    /*-------------------section-----------------*/
+    #container{
+        width: 100%;
+        height: 100px;
+    }
+    .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    .image-container img{
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }
+    #container .paragraphs-conteiner{
+       color: white;
+       position: absolute;     
+       display: flex;  
+       flex-direction: column;
+       left: 15%;
+       top: 19%;
+       line-height: 0.7;
+       font-size: 5px;
+    }
+   
+        
+    
+    /*-------------------main-----------------*/
+    #productos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-bottom: 2%;
+        margin-top: 1%;             
+        font-size: 10px;
+        
+    }
+    .producto{
+        width: 40%;
+        padding-left: 5%; 
+        padding-right: 5%;
+    
+    }
+    .producto .imagen img{
+        height: 90px;
+        width: 80px;
+    }
+    .imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        margin-bottom: 5%;
+    }
+    .product-tax-policy{
+        font-size: 10px;
+    }
+    /*-------------------footer-----------------*/
+    footer{
+        background-color: #7525a7;
+        padding-bottom: 2%;
+        font-size: 5px;
+    }
+}
