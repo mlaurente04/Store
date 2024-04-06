@@ -83,6 +83,9 @@ html {
     padding-left: 2%;
     padding-right: 2%;
 }
+.selector{
+    font-size: 12px;
+}
 fieldset{
     border: 1px solid #adabab;
     display: flex;
