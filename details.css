@@ -83,11 +83,15 @@ html {
     padding-left: 2%;
     padding-right: 2%;
 }
+.selector{
+    font-size: 12px;
+}
 fieldset{
     border: 1px solid #adabab;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    align-items: center;
 }
 .description-ipad p{
     font-size: 12px;
@@ -97,7 +101,7 @@ fieldset{
     padding-left: 1%;
     padding-right: 1%;
     width: 15%;
-    height: 380px;
+    height: 420px;
 }
 #envio h5{
     color: #fe535d;
